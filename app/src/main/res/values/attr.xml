@@ -2,12 +2,17 @@
 <resources>
     <declare-styleable name="Options">
 
-        <attr name="sm_tint" format="color" />
-        <attr name="sm_backgroundColor" format="color" />
-        <attr name="sm_size" format="integer" />
+        <attr name="sm_tint" format="integer" />
+        <attr name="sm_backgroundColor" format="integer" />
         <attr name="sm_icon" format="integer" />
         <attr name="sm_clickable" format="boolean" />
-        <attr name="sm_focusable" format="enum" />
+        <attr name="sm_focusable" format="boolean" />
+        <attr name="sm_size" format="enum">
+
+            <enum name="BIG" value="0" />
+            <enum name="SMALL" value="1" />
+
+        </attr>
 
     </declare-styleable>
 

@@ -5,11 +5,14 @@
     android:layout_height="match_parent"
     tools:context="io.salyangoz.scrollme.MainActivity">
 
-    <io.salyangoz.scrollme.ScrollMeView
+    <io.salyangoz.scrollme.ScrollMeView xmlns:custom="http://schemas.android.com/apk/res-auto/io.salyangoz.scrollme"
         android:id="@+id/scrollMeView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/background_light"
-        android:fitsSystemWindows="true" />
+        android:fitsSystemWindows="true"
+        custom:sm_backgroundColor="@color/colorPrimary"
+        custom:sm_icon="@drawable/ic_arrow_drop_up_black_24dp"
+        custom:sm_size="SMALL"
+        custom:sm_tint="@color/colorPrimary" />
 
 </android.support.constraint.ConstraintLayout>
