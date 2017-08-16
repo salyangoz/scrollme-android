@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Options">
+
+        <attr name="sm_tint" format="color" />
+        <attr name="sm_backgroundColor" format="color" />
+        <attr name="sm_size" format="integer" />
+        <attr name="sm_icon" format="integer" />
+        <attr name="sm_clickable" format="boolean" />
+        <attr name="sm_focusable" format="enum" />
+
+    </declare-styleable>
+
+</resources>
