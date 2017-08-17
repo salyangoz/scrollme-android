@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <io.salyangoz.scrollme.ScrollMeView
+        android:id="@+id/scrollMeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:sm_backgroundColor="@android:color/white"
+        app:sm_icon="@drawable/ic_up"
+        app:sm_size="SMALL"
+        app:sm_tint="@color/colorAccent" />
+
+</android.support.constraint.ConstraintLayout>
