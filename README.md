@@ -5,7 +5,7 @@ An Android library automatically adds scroll up button to RecyclerView
 
 Preview
 --------
-![alt text](http://www.salyangoz.com.tr/scrollme/sample-android.png)
+![alt text](http://www.salyangoz.com.tr/scrollme/sample-android.gif)
 
 For more information please see [the website][1]
 
@@ -32,7 +32,7 @@ or Maven:
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
 
-Dependencies (Google Services)
+Dependencies 
 --------
 
 Project uses AppCompat, Support, Design and Constraint libraries. This section is only inform you that library uses below implementations.
@@ -59,7 +59,7 @@ add `xmlns:app="http://schemas.android.com/apk/res-auto"`
 
 You can customize 5 custom attributes shown below.
 
-| Parameter Key  | Default Value |
+| Parameter Key  | Default Value | Type |
 | ------------- | ------------- | ------------- |
 | sm_tint | Floating button up icon color | color |
 | sm_backgroundColor | Floating button background color | color |
